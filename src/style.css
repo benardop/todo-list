@@ -13,18 +13,6 @@ body {
   align-items: center;
 }
 
-.main-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  width: 40%;
-  min-height: 40vh;
-  background-color: #f6f6f6;
-  border-radius: 3px;
-  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
-}
-
 .head1 {
   padding: 0.5rem 1rem;
   display: flex;
@@ -42,6 +30,18 @@ body {
 
 .head1 img {
   width: 30px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 40%;
+  min-height: 40vh;
+  background-color: #f6f6f6;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
 }
 
 .head2 img {
