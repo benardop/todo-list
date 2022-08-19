@@ -1,4 +1,4 @@
- ## Conference Website 
+ ## To Do Web Applicatiom
 
 The project is inspired by a mock up to create a todo-list using webpack bundler
 For this todo-list, I implemented Html, JavaScript, webpack and Css that includes the project details in mobile.
@@ -12,7 +12,7 @@ For this todo-list, I implemented Html, JavaScript, webpack and Css that include
 - Linter
 
 ## Live Demo
-[Live Demo Link](https://github.com/benardop/todo-list.git)
+[Live Demo Link](https://benardop.github.io/todo-list/)
 
 
 Please get your browser update.
