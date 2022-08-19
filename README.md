@@ -12,7 +12,7 @@ For this todo-list, I implemented Html, JavaScript, webpack and Css that include
 - Linter
 
 ## Live Demo
-[Live Demo Link](https://benardop.github.io/awesom-bookstore/)
+[Live Demo Link](https://github.com/benardop/todo-list.git)
 
 
 Please get your browser update.
@@ -20,9 +20,9 @@ To get a local copy up and running follow these simple steps.
 
 Run the command below from the Terminal:
 
-      git clone <URL> ' https://github.com/benardop/awesom-bookstore.git' in your terminal
+      git clone <URL> ' https://github.com/benardop/todo-list.git' in your terminal
 
-	  cd awesome-books
+	  cd todo-list
 
 
 ## Authors
