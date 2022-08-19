@@ -115,6 +115,10 @@ body {
   opacity: 0.7;
 }
 
+.done {
+  display: none;
+}
+
 .three-dots {
   opacity: 0.5;
   display: none;
@@ -122,8 +126,4 @@ body {
 
 .trash {
   display: block;
-}
-
-.done {
-  display: none;
 }
