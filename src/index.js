@@ -1,6 +1,6 @@
 import './style.css';
 import generateTask from './modules/generateTask.js';
-import checkInteraction from './modules/function-1.js';
+import checkInteraction from './modules/taskStatus.js';
 import getTasks from './modules/task.js';
 import isLocalStorageEmpty from './modules/isLocalStorageEmpty.js';
 import addNewTask from './modules/addNewTask.js';
@@ -9,7 +9,8 @@ import editPreserve from './modules/editPreserve.js';
 import updateCheckBox from './modules/updateCheckBox.js';
 import clearCompleted from './modules/clearCompleted.js';
 
-/// ///////////////////////////////////////
+// Retrieve all task from local storage
+// Edit and remove task from the list
 
 window.onload = () => {
   if (isLocalStorageEmpty()) {
