@@ -2,7 +2,7 @@ import './style.css';
 import createTask from './modules/createTask.js';
 import checkInteraction from './modules/taskStatus.js';
 import getTasks from './modules/task.js';
-import isLocalStorageEmpty from './modules/isLocalStorageEmpty.js';
+import isLocalStorageEmpty from './modules/checkLocalStorageStatus.js';
 import addNewTask from './modules/addNewTask.js';
 import removeFuncionality from './modules/removeFunctionality.js';
 import editPreserve from './modules/editPreserve.js';
