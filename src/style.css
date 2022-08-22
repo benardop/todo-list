@@ -65,9 +65,9 @@ body {
 .header2 input {
   flex: 1;
   height: 50px;
+  padding: 0 40px 0 1rem;
   border: 0;
   outline: none;
-  padding: 0 40px 0 1rem;
   font-size: 1.4rem;
   font-family: 'Arial', Times, sans-serif;
   font-style: italic;
