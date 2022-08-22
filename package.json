@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/yasinabdmahmood/To-do-list/issues"
   },
-  "homepage": "https://github.com/yasinabdmahmood/To-do-list#readme",
+  "homepage": "https://github.com/yasinabdmahmood/To-do-list",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
@@ -41,6 +41,7 @@
     "webpack-dev-server": "^4.10.0"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "lodash": "^4.17.21"
   }
 }
