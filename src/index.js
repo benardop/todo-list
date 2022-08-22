@@ -1,5 +1,5 @@
 import './style.css';
-import generateTask from './modules/generateTask.js';
+import createTask from './modules/createTask.js';
 import checkInteraction from './modules/taskStatus.js';
 import getTasks from './modules/task.js';
 import isLocalStorageEmpty from './modules/isLocalStorageEmpty.js';
@@ -20,7 +20,7 @@ window.onload = () => {
 
     tasks.sort((b, a) => b.index - a.index);
     tasks.forEach((el) => {
-      const div = generateTask(el.discription);
+      const div = createTask(el.discription);
       removeFuncionality(div);
       editPreserve(div);
       document.querySelector('.task-list').appendChild(div);

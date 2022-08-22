@@ -50,7 +50,7 @@ body {
   width: 10px;
 }
 
-.taks-wrapper img {
+.task-wrapper img {
   width: 25px;
 }
 
@@ -99,13 +99,13 @@ body {
   background-color: white;
 }
 
-.taks-wrapper {
+.task-wrapper {
   padding: 1rem 0.5rem 1rem 1rem;
   display: flex;
   border-top: 2px solid #f6f6f6;
 }
 
-.taks-wrapper input {
+.task-wrapper input {
   padding-left: 1rem;
   flex: 1;
   border: none !important;

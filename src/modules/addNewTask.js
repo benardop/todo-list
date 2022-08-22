@@ -1,5 +1,5 @@
 import getTasks from './task.js';
-import generateTask from './generateTask.js';
+import createTask from './createTask.js';
 import addInterAction from './addInterAction.js';
 import removeFuncionality from './removeFunctionality.js';
 import editPreserve from './editPreserve.js';
@@ -13,7 +13,7 @@ const addNewTask = (task) => {
   };
   data.push(obj);
   localStorage.setItem('data', JSON.stringify(data));
-  const div = generateTask(task);
+  const div = createTask(task);
   addInterAction(div);
   removeFuncionality(div);
   editPreserve(div);
