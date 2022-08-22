@@ -5,34 +5,34 @@ html {
 
 body {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100vh;
   padding: 0%;
   margin: 0%;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
-.head1 {
-  padding: 0.5rem 1rem;
+.header1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 0.5rem 1rem;
   background-color: #000;
   color: #fff;
   border-bottom: 2px solid #f6f6f6;
 }
 
-.head1 span {
-  font-size: 1.5rem;
+.header1 span {
+  font-size: 1.4rem;
 }
 
-.head1 img {
-  width: 30px;
+.header1 img {
+  width: 28px;
 }
 
-.main-wrapper {
+.main-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -44,9 +44,9 @@ body {
   box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
 }
 
-.head2 img {
-  background-color: white;
+.header2 img {
   padding-right: 1rem;
+  background-color: white;
   width: 10px;
 }
 
@@ -54,22 +54,22 @@ body {
   width: 25px;
 }
 
-.head1 img:hover {
-  filter: invert(100%) sepia(86%) saturate(7443%) hue-rotate(0deg) brightness(0%) contrast(89%);
+.header1 img:hover {
+  filter: invert(100%) sepia(86%) saturate(7441%) hue-rotate(0deg) brightness(0%) contrast(88%);
 }
 
-.head2 {
+.header2 {
   display: flex;
 }
 
-.head2 input {
+.header2 input {
   flex: 1;
   height: 50px;
   border: 0;
   outline: none;
   padding: 0 40px 0 1rem;
   font-size: 1.4rem;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, sans-serif;
   font-style: italic;
 }
 
@@ -80,11 +80,11 @@ body {
 }
 
 .end button {
+  font-size: 1.5rem;
+  opacity: 0.5;
   background-color: inherit;
   font-family: 'Times New Roman', Times, serif;
   border: 0;
-  font-size: 1.5rem;
-  opacity: 0.5;
   padding: 1.5rem 0;
 }
 
@@ -119,11 +119,11 @@ body {
   display: none;
 }
 
-.three-dots {
-  opacity: 0.5;
-  display: none;
-}
-
 .trash {
   display: block;
+}
+
+.three-dots {
+  opacity: 0.4;
+  display: none;
 }
