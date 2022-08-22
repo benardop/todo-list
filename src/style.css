@@ -45,9 +45,9 @@ body {
 }
 
 .header2 img {
+  width: 10px;
   padding-right: 1rem;
   background-color: white;
-  width: 10px;
 }
 
 .task-wrapper img {
@@ -55,7 +55,7 @@ body {
 }
 
 .header1 img:hover {
-  filter: invert(100%) sepia(86%) saturate(7441%) hue-rotate(0deg) brightness(0%) contrast(88%);
+  filter: invert(100%) sepia(85%) saturate(7441%) hue-rotate(0deg) brightness(0%) contrast(88%);
 }
 
 .header2 {
