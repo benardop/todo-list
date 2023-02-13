@@ -1,8 +1,6 @@
  ## To Do Web Applicatiom
 
-The project is inspired by a mock up to create a todo-list using webpack bundler
-For this todo-list, I implemented Html, JavaScript, webpack and Css that includes the project details in mobile.
-
+This educational project is to make a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. Built with HTML, CSS, JavaScript and Webpack.
  
 ## Built With the following
 
