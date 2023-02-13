@@ -11,6 +11,10 @@ For this todo-list, I implemented Html, JavaScript, webpack and Css that include
 - Javascript
 - Linter
 
+## Website Mockup 📱 💻 🖥️
+![app_screenshot](https://user-images.githubusercontent.com/620415/218577068-4dca1c37-0ca5-455b-bbd1-42fed5780039.PNG)
+
+
 ## Live Demo
 [Live Demo Link](https://benardop.github.io/todo-list/)
 
